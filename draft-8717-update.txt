@@ -4,7 +4,9 @@
 
 TBD                                                              R. Salz
 Internet-Draft                                       Akamai Technologies
-Intended status: Best Current Practice                      3 March 2025
+Updates: 3710, 3929, 4633, 6702, 9281 (if                   3 March 2025
+         approved)                                                      
+Intended status: Best Current Practice                                  
 Expires: 4 September 2025
 
 
@@ -13,7 +15,13 @@ Expires: 4 September 2025
 
 Abstract
 
-   TODO Abstract
+   RFC 8717 updated several RFCs pertaining to the organization of the
+   IETF to use the term "Managing Director, IETF Secretariat" (MDS).  As
+   that term does not accurately reflect the organization or roles of
+   the IETF staff, the MDS term is no longer relevant.  This document
+   removes mention of particular staff roles, and instead updates the
+   source documents so that the job to done, and who the responsible
+   entity is (generally, the IETF LLC) are described.
 
 Discussion Venues
 
@@ -57,15 +65,30 @@ Table of Contents
 
    1.  Introduction
    2.  Conventions and Definitions
-   3.  Security Considerations
-   4.  IANA Considerations
-   5.  Normative References
+   3.  Updates Being Made
+     3.1.  Changes to RFC 3710
+     3.2.  Changes to RFC 3929
+     3.3.  Changes to RFC 4633
+     3.4.  Changes to RFC 6702
+   4.  Security Considerations
+   5.  IANA Considerations
+   6.  References
+     6.1.  Normative References
+     6.2.  Informative References
    Acknowledgments
    Author's Address
 
 1.  Introduction
 
-   TODO Introduction
+   [RFC8717] updated several RFCs pertaining to the organization of the
+   IETF to use the term "Managing Director, IETF Secretariat" (MDS).  As
+   that term does not accurately reflect the organization or roles of
+   the IETF staff, the MDS term is no longer relevant.  This document
+   removes mention of particular staff roles, and instead updates the
+   source documents so that the job to done, and who the responsible
+   entity is (generally, the IETF LLC) are described.
+
+   This document updates [RFC3710], [RFC3929], [RFC4633], and [RFC6702].
 
 2.  Conventions and Definitions
 
@@ -75,28 +98,142 @@ Table of Contents
    BCP 14 [RFC2119] [RFC8174] when, and only when, they appear in all
    capitals, as shown here.
 
-3.  Security Considerations
+3.  Updates Being Made
 
-   TODO Security
+   [RFC8717], Section 2 explained that [RFC2606] did not need to be
+   updated because [RFC8179] removed the need for it.  While the same
+   section of RFC 8717 provided an update to [RFC2028], that has
+   similarly been overtaken by events in that it was obsoleted by
+   [RFC9281], and Section 3 of RFC 9281 does not need revising.
 
-4.  IANA Considerations
+   Further, the IETF is in the "consideration" stage of forming a
+   working group to update [RFC2418]; for discussion, see the mailing
+   list (https://mailman3.ietf.org/mailman3/lists/procon.ietf.org/).  An
+   online document proposing changes to RFC 2418 to comply with this
+   document (https://github.com/richsalz/draft-rsalz-2418bis/pull/14)
+   are available.
+
+   The following sub-sections make the specific changes for each RFC and
+   therefore this document completely replaces Section 2 of RFC 8717.
+
+3.1.  Changes to RFC 3710
+
+   [RFC3710], Section 2 describes the composition of the IESG.  This
+   section is updated to replace the original text that twice mentions
+   "IETF Executive Director" with "a member of the IETF staff as
+   specified by the IETF LLC."
+
+3.2.  Changes to RFC 3929
+
+   RFC 3929, an Experimental RFC, proposes a number of methods to
+   resolve a deadlock when an IETF Working Group is unable to come to a
+   decision.
+
+   [RFC3929], Section 4.1.1 says that volunteers should send their names
+   to the IETF Executive Directory, who should use [RFC3797] to choose
+   if their is an excess of volunteers.  As the IESG is responsible for
+   the standards process, this task should be fulfilled by someone they
+   announce.
+
+   Similarly, in [RFC3929], Section 4.3 an alternate method is
+   described.  Again, the text is changed so that the IESG announces who
+   will perform that task.
+
+3.3.  Changes to RFC 4633
+
+   [RFC4633], Section 1 says that the IETF Executive Director is
+   empowered to restrict posting to the IETF discussion list
+   (mailto:ietf@ietf.org).
+
+   This document updates RFC 4633 to remove that ability.
+
+3.4.  Changes to RFC 6702
+
+   [RFC6702], Section 5 says that WG Chairs and Area Directors are
+   encouraged to ask the IETF Executive Directory to contact those who
+   submitted an early intellectual property disclosure and request an
+   update.
+
+   This document updates RFC 6702 to say that the IETF LLC, or their
+   designee, should be contacted.
+
+4.  Security Considerations
+
+   This document has no security considerations.
+
+5.  IANA Considerations
 
    This document has no IANA actions.
 
-5.  Normative References
+6.  References
+
+6.1.  Normative References
 
    [RFC2119]  Bradner, S., "Key words for use in RFCs to Indicate
               Requirement Levels", BCP 14, RFC 2119,
               DOI 10.17487/RFC2119, March 1997,
               <https://www.rfc-editor.org/rfc/rfc2119>.
 
+   [RFC3710]  Alvestrand, H., "An IESG charter", RFC 3710,
+              DOI 10.17487/RFC3710, February 2004,
+              <https://www.rfc-editor.org/rfc/rfc3710>.
+
+   [RFC3929]  Hardie, T., "Alternative Decision Making Processes for
+              Consensus-Blocked Decisions in the IETF", RFC 3929,
+              DOI 10.17487/RFC3929, October 2004,
+              <https://www.rfc-editor.org/rfc/rfc3929>.
+
+   [RFC4633]  Hartman, S., "Experiment in Long-Term Suspensions From
+              Internet Engineering Task Force (IETF) Mailing Lists",
+              RFC 4633, DOI 10.17487/RFC4633, August 2006,
+              <https://www.rfc-editor.org/rfc/rfc4633>.
+
+   [RFC6702]  Polk, T. and P. Saint-Andre, "Promoting Compliance with
+              Intellectual Property Rights (IPR) Disclosure Rules",
+              RFC 6702, DOI 10.17487/RFC6702, August 2012,
+              <https://www.rfc-editor.org/rfc/rfc6702>.
+
    [RFC8174]  Leiba, B., "Ambiguity of Uppercase vs Lowercase in RFC
               2119 Key Words", BCP 14, RFC 8174, DOI 10.17487/RFC8174,
               May 2017, <https://www.rfc-editor.org/rfc/rfc8174>.
 
+   [RFC8717]  Klensin, J., Ed., "IETF Administrative Support Activity
+              2.0: Consolidated Updates to IETF Administrative
+              Terminology", BCP 101, RFC 8717, DOI 10.17487/RFC8717,
+              February 2020, <https://www.rfc-editor.org/rfc/rfc8717>.
+
+6.2.  Informative References
+
+   [RFC2028]  Hovey, R. and S. Bradner, "The Organizations Involved in
+              the IETF Standards Process", RFC 2028,
+              DOI 10.17487/RFC2028, October 1996,
+              <https://www.rfc-editor.org/rfc/rfc2028>.
+
+   [RFC2418]  Bradner, S., "IETF Working Group Guidelines and
+              Procedures", BCP 25, RFC 2418, DOI 10.17487/RFC2418,
+              September 1998, <https://www.rfc-editor.org/rfc/rfc2418>.
+
+   [RFC2606]  Eastlake 3rd, D. and A. Panitz, "Reserved Top Level DNS
+              Names", BCP 32, RFC 2606, DOI 10.17487/RFC2606, June 1999,
+              <https://www.rfc-editor.org/rfc/rfc2606>.
+
+   [RFC3797]  Eastlake 3rd, D., "Publicly Verifiable Nominations
+              Committee (NomCom) Random Selection", RFC 3797,
+              DOI 10.17487/RFC3797, June 2004,
+              <https://www.rfc-editor.org/rfc/rfc3797>.
+
+   [RFC8179]  Bradner, S. and J. Contreras, "Intellectual Property
+              Rights in IETF Technology", BCP 79, RFC 8179,
+              DOI 10.17487/RFC8179, May 2017,
+              <https://www.rfc-editor.org/rfc/rfc8179>.
+
+   [RFC9281]  Salz, R., "Entities Involved in the IETF Standards
+              Process", BCP 11, RFC 9281, DOI 10.17487/RFC9281, June
+              2022, <https://www.rfc-editor.org/rfc/rfc9281>.
+
 Acknowledgments
 
-   TODO acknowledge.
+   Just me.
 
 Author's Address
 
