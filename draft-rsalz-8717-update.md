@@ -1,5 +1,5 @@
 ---
-title: "Update to RFC 8717"
+title: "Update to RFC 8717: IETF Administrative Terminology"
 abbrev: "8717update"
 updates: 3710, 3929, 4633, 6702, 9281
 docname: draft-rsalz-8717-update-latest
@@ -37,8 +37,8 @@ to use the term "Managing Director, IETF Secretariat" (MDS).
 As that term does not accurately reflect the organization or roles of
 the IETF staff, the MDS term is no longer relevant.
 This document removes mention of particular staff roles, and instead
-updates the source documents so that the job to done, and who
-the responsible entity is (generally, the IETF LLC) are described.
+updates the source documents so that the job to be done, and who
+the responsible entity is, are described.
 
 --- middle
 
@@ -50,13 +50,10 @@ As that term does not accurately reflect the organization or roles of
 the IETF staff, the MDS term is no longer relevant.
 This document removes mention of particular staff roles, and instead
 updates the source documents so that the job to done, and who
-the responsible entity is (generally, the IETF LLC) are described.
+the responsible entity is, are described.
 
-This document updates
-{{!RFC3710}},
-{{!RFC3929}},
-{{!RFC4633}}, and
-{{!RFC6702}}.
+This document updates {{RFC3710}} and {{RFC6702}}. It also changes the
+status of {{RFC3929}} and {{RFC4633}} to Historic.
 
 # Conventions and Definitions
 
@@ -82,41 +79,50 @@ therefore this document completely replaces Section 2 of RFC 8717.
 
 ##  Changes to RFC 3710
 
-{{RFC3710, Section 2}} describes the composition of the IESG.
-This section is updated to replace the original text that twice
-mentions "IETF Executive Director" with "a member of the IETF staff as
-specified by the IETF LLC."
+{{RFC3710, Section 2}} describes the composition of the IESG and mentions
+the IETF Executive Director twice.
+
+The first mention:
+
+    The Internet Architecture Board (IAB) Chair and the IETF Executive
+    Director, as ex-officio members of the IESG.
+
+Is replaced with the following text:
+
+    The Internet Architecture Board (IAB) Chair and the IETF Executive
+    Director or their designee, as ex-officio members of the IESG.
+
+The second mention:
+
+    The IETF Executive Director is the person charged with running the
+    IETF Secretariat.
+
+is deleted.
 
 ##  Changes to RFC 3929
 
-RFC 3929, an Experimental RFC, proposes a number of methods to resolve
-a deadlock when an IETF Working Group is unable to come to a decision.
-
-{{RFC3929, Section 4.1.1}} says that volunteers should send their
-names to the IETF Executive Directory, who should use {{?RFC3797}} to
-choose if their is an excess of volunteers.
-As the IESG is responsible for the standards process, this task should
-be fulfilled by someone they announce.
-
-Similarly, in {{RFC3929, Section 4.3}} an alternate method is described. Again,
-the text is changed so that the IESG announces who will perform that
-task.
+{{RFC3929}} is an Experimental RFC published in 2004. This document changes its status to
+Historic.
 
 ##  Changes to RFC 4633
 
-{{RFC4633, Section 1}} says that the IETF Executive Director is empowered
-to restrict posting to the [IETF discussion list](mailto:ietf@ietf.org).
-
-This document updates RFC 4633 to remove that ability.
+{{RFC4633}} is an Experimental RFC published in 2006. This document changes its status to
+Historic.
 
 ##  Changes to RFC 6702
 
 {{RFC6702, Section 5}} says that WG Chairs and Area Directors are
 encouraged to ask the IETF Executive Directory to contact those who
 submitted an early intellectual property disclosure and request an update.
+This document specifies an email address to be used for that purpose:
 
-This document updates RFC 6702 to say that the IETF LLC, or their
-designee, should be contacted.
+    To help prevent early IPR disclosures from becoming stale
+    or incomplete, at important junctures in the standardization process
+    (e.g., at working group adoption, before Working Group Last Call, and
+    before IETF Last Call) WG chairs and ADs are encouraged to request
+    that the Executive Director of the IETF contact those who submitted
+    early IPR disclosures about updating their disclosures by
+    sending email to XXX@ietf.org.
 
 # Security Considerations
 
