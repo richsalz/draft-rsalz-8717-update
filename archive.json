@@ -1,6 +1,6 @@
 {
   "magic": "E!vIA5L86J2I",
-  "timestamp": "2025-04-01T01:16:37.238113+00:00",
+  "timestamp": "2025-04-03T01:08:28.893388+00:00",
   "repo": "richsalz/draft-8717-update",
   "labels": [
     {
@@ -49,6 +49,23 @@
       "color": "ffffff"
     }
   ],
-  "issues": [],
+  "issues": [
+    {
+      "number": 1,
+      "id": "I_kwDOOCl0bM6wsexX",
+      "title": "Martin Durst feedback.",
+      "url": "https://github.com/richsalz/draft-8717-update/issues/1",
+      "state": "OPEN",
+      "author": "richsalz",
+      "authorAssociation": "OWNER",
+      "assignees": [],
+      "labels": [],
+      "body": "\nHello Rich, others,\n\nJust a few comments:\n\n- I personally don't like draft names such as XXXX-update (with XXXX\nbeing an RFC number). There are people in the IETF that know all their\nRFCs by number, but others don't. Such draft names may be okay if the\ndocument has a more descriptive title. So please at least use a more\ndescriptive title.\n\n- RFC 8717 is so short that an update doesn't make sense. It looks like\nyou got to the same conclusion, as draft-rsalz-8717-update-00.txt says\n\"Updates: 3710, 3929, 4633, 6702, 9281 (if approved)\", without\nmentioning RFC 8717. Also, the abstract, towards the end, says \"updates\nthe source documents\". It would be good if this were reflected in the\ntitle and even better if it were also reflected in the draft name\n(e.g. draft-rsalz-8717-replacement). Also, at the top, the draft should\nsay \"Obsoletes: 8717 (if approved)\".\n\n- As a result of the above two comments, a better title may be\n   \"Replacement of RFC 8717 to remove the Managing Director of the IETF\nSecretariat\" or so. But that title, while suited for the start, won't\nlook particularly good when this is published as an RFC. For that, I'd\naim for something like \"IETF Administrative Support Activity 2.0:\nConsolidated Updates to IETF Administrative Terminology 2.0\".\n\n- The abstract contains a grammatical error:\n   \"so that the job to done\" -> \"so that the job to be done\"\n\n(I have to admit that I haven't yet read the draft itself, sorry.)\n\nRegards,   Martin.\n",
+      "createdAt": "2025-04-01T19:58:39Z",
+      "updatedAt": "2025-04-01T19:58:39Z",
+      "closedAt": null,
+      "comments": []
+    }
+  ],
   "pulls": []
 }
