@@ -1,0 +1,42 @@
+From Jay:
+
+It's basically section 2 of RFC 8717 that needs to be replaced so that the term "Managing Director, IETF Secretariat" (MDS) goes away as this no longer has any relevance and I don't think this can be left to rewrites of the individual documents.
+
+Most of the current occurrences need to be rewritten so that they don't list
+who does it, it is just done.
+
+ 2. Where Appropriate, Replacement of the IETF Executive Director Position
+ with the Managing Director, IETF Secretariat
+
+Under the IASA 2.0 structure, most of the responsibilities of the former
+position of IETF Executive Director have been assigned to a new position (or
+at least title) of Managing Director, IETF Secretariat. An "Executive
+Director" title is now associated with different, and largely new,
+responsibilities as an officer of the IETF Administration LLC. These changes
+are covered in the description of the new structural arrangements [RFC8711].
+
+This document applies that change to the following:
+
+- RFC 9281, "The Organizations Involved in the IETF Standards Process",
+[RFC2028], Section 3.3.
+
+- RFC 2418, "IETF Working Group Guidelines and Procedures", [RFC2418],
+Section 1.
+
+- RFC 3710, "An IESG Charter", [RFC3710], Section 2.
+
+- RFC 3929, "Alternative Decision Making Processes for Consensus-Blocked
+Decisions in the IETF", [RFC3929], Sections 4.1.1 and 4.3 (twice).
+
+- RFC 4633, "Experiment in Long-Term Suspensions From Internet Engineering
+Task Force (IETF) Mailing Lists", [RFC4633], Section 1.
+
+- RFC 6702, "Promoting Compliance with Intellectual Property Rights (IPR)
+Disclosure Rules", [RFC6702], Section 5.
+
+Note that the current description of the Internet Standards Process [RFC2026]
+does not require an update by this document for this purpose because the
+reference to the IETF Executive Director in RFC 2026 was replaced by a
+document [RFC3979] that precedes the current effort, and that document was,
+in turn, obsoleted by RFC 8179 [RFC8179].
+
