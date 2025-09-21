@@ -9,6 +9,7 @@
 /*-[0-9][0-9].xml
 /.*.mk
 /.gems/
+/.idea/
 /.refcache
 /.venv/
 /.vscode/
@@ -17,7 +18,6 @@
 /versioned/
 Gemfile.lock
 archive.json
-draft-8717-update.xml
 draft-rsalz-8717-update.xml
 package-lock.json
 report.xml
