@@ -4,10 +4,10 @@
 
 TBD                                                              R. Salz
 Internet-Draft                                       Akamai Technologies
-Updates: 3710, 3929, 4633, 6702, 9281 (if                   1 April 2025
+Updates: 3710, 3929, 4633, 6702, 9281 (if              21 September 2025
          approved)                                                      
 Intended status: Best Current Practice                                  
-Expires: 3 October 2025
+Expires: 25 March 2026
 
 
           Update to RFC 8717: IETF Administrative Terminology
@@ -45,7 +45,7 @@ Status of This Memo
    time.  It is inappropriate to use Internet-Drafts as reference
    material or to cite them other than as "work in progress."
 
-   This Internet-Draft will expire on 3 October 2025.
+   This Internet-Draft will expire on 25 March 2026.
 
 Copyright Notice
 
