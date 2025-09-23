@@ -1,7 +1,7 @@
 {
   "magic": "E!vIA5L86J2I",
-  "timestamp": "2025-09-21T01:13:59.608814+00:00",
-  "repo": "richsalz/draft-8717-update",
+  "timestamp": "2025-09-23T01:06:47.945171+00:00",
+  "repo": "richsalz/draft-rsalz-8717-update",
   "labels": [
     {
       "name": "bug",
@@ -54,7 +54,7 @@
       "number": 1,
       "id": "I_kwDOOCl0bM6wsexX",
       "title": "Martin Durst feedback.",
-      "url": "https://github.com/richsalz/draft-8717-update/issues/1",
+      "url": "https://github.com/richsalz/draft-rsalz-8717-update/issues/1",
       "state": "OPEN",
       "author": "richsalz",
       "authorAssociation": "OWNER",
